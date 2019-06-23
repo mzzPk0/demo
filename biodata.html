@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+  <html>
+
+  <head>
+    <title>Form Biodata</title>
+  </head>
+  <body>
+    <h1>Form Biodata</h4>
+    <form action="save.php" method="post">
+        <label for="nama-depan"><strong>First Name</strong></label>
+        <br>
+        <input type="text" name="depan" value="" id="nama-depan">
+        <br>
+        <label for="nama-belakang"><strong>Last Name</strong></label>
+        <br>
+        <input type="text" name="nama-belakang" value="" id="nama-Belakang">
+        <br>
+        <label for="password"><strong>Password</strong></label>
+        <br>
+        <input type="password" name="password" value="" id="password">
+        <br><br>
+        <label for="gender"><strong>Gender</strong> :</label>
+        <br>
+        <input type="radio" name="Gender" value="male" id="male-radio">
+        <label for="male-radio">Male</label>
+        <br>
+        <input type="radio" name="Gender" value="female" id="female-radio">
+        <label for="female-radio">Female</label>
+        <br>
+        <input type="radio" name="Gender" value="Other" id="other-radio">
+        <label for="other-radio">Other</label>
+        <br><br>
+        <label for="bahasa">Bahasa yang dikuasai :</label>
+        <br>
+        <input type="checkbox" name="Bahasa" value="Indonesia" id="checkbox-indonesia">
+        <label for="checkbox-indonesia">Indonesia</label>
+        <br>
+        <input type="checkbox" name="Bahasa" value="english" id="checkbox-english">
+        <label for="checkbox-english">English</label>
+        <br>
+        <input type="checkbox" name="Bahasa" value="Mandarin" id="checkbox-manadarin"
+        <label for="checkbox-mandarin"> Mandarin</label>
+        <br><br>
+        <label for="usia"><strong>Usia</strong></label>
+        <input type="number" name="usia" step="1" id="number-usia">
+        <br><br>
+        <label for="skill"><strong>Skill</strong></label>
+        <br>
+        <label for="pemula">Pemula</label>
+        <input type="range" min="10" max="100" step="10" name="Skill" id="Skill">
+        <label for="expert">Expert</label>
+        <br><br>
+        <label for="Faculty"><strong>Faculty</strong></label>
+        <br>
+        <select name="Faculty" id="Faculty">
+          <option value="Economy">Economy</option>
+          <option value="Science">Science</option>
+          <option value="Pendidikan">Pendidikan</option>
+        </select>
+        <br><br>
+        <label for="about"><strong>About Me</strong></label>
+        <br>
+        <textarea name="name" rows="8" cols="40">
+          About Me
+        </textarea>
+        <br>
+        <input type="Submit" value="Submit">
+    </form>
+  </body>
+</html>
